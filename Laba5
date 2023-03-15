@@ -1,0 +1,54 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+ <meta charset="utf-8">
+ <title>Испытание: гибкий поток</title>
+ <link href="srtyle5Laba..css" rel="stylesheet">
+ </head>
+ <body class="exam">
+   <div class="brick-layout">
+   <div class="brick color-aqua"></div>
+   <div class="brick color-aqua"></div>
+   <div class="brick color-aqua"></div>
+   <div class="brick color-yellow"></div>
+   <div class="brick color-yellow"></div>
+   <div class="brick color-yellow"></div>
+   <div class="brick color-fuchsia"></div>
+   <div class="brick color-fuchsia"></div>
+   
+   </div>
+ </body>
+</html>
+
+
+
+style.css
+
+.brick-layout {
+    width: 400px;
+    padding: 5px;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .brick {
+    min-height: 80px;
+    min-width: 50px;
+    margin: 5px;
+    flex-basis: 100px;
+  }
+  .brick:nth-child(2n) {
+   flex-grow:1; 
+  }
+  .color-aqua{
+    background: aqua;
+  }
+  .color-yellow{
+    background: yellow;
+  }
+  .color-fuchsia{
+    background: fuchsia;
+  }
