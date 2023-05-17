@@ -1,0 +1,135 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:  16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #FFB6C1;
+    min-width: 320px;
+     
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+section{
+    padding: 50px 0;
+}
+
+a{
+    color: #111;
+
+}
+
+a:hover{
+    color: #555;
+}
+/*header*/
+header{
+    background-color: #DB7093;
+}
+
+.navbar-light .navbar-nav .nav-link{
+color: #111;
+font-weight: 500;
+text-transform: uppercase;
+}
+
+/*header*/
+
+
+.cart {
+    height: auto;
+    padding: 25px 0;
+    margin-left: 25%;
+    padding-top: 4%;
+    line-height: 1.25;
+    transition: 0.5s;
+    position: relative;
+    display: inline;
+}
+table{
+    width: 50%;
+    height: 50%;
+}
+h1.block2 {
+    color: #404040;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+}
+.mainImg{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+.types{
+    width: 33.3%;
+    height: 33.3%;
+    padding: 30px;
+    display: flex;
+    margin: 150px;
+    
+    
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+.textTypes {
+    text-align: center;
+    
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    
+}
+.div{
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    text-align: center;
+    
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+.img {
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+    padding: 5px;
+    display: flex;
+}
+.img img {
+    width: 33.3%;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+}
+.individDes{
+    padding: 30px;
+    margin: 150px;;
+}
+footer{
+    background-color: #DB7093;
+}
+.scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+    display: flex;
+   }
+.scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+}
+.scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
